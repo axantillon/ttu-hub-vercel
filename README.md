@@ -1,4 +1,4 @@
-# TailwindCSS Style Guide
+# TailwindCSS Style Guide.
 
 Since TailwindCSS applies styles by adding classes to elements, the order in which classes are added can make it so that styling becomes hard to mantain and keep conistent
 
