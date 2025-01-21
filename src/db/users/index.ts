@@ -72,7 +72,7 @@ export async function internalUpdateUserByUsername(
   username: string,
   data: Partial<User>
 ): Promise<ExtendedUser> {
-  console.log("updating user by username");
+  console.log("updating user by username", username, data);
   const user = await prisma.user.update({
     where: { username },
     data: {
